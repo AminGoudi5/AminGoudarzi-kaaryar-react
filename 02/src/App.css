@@ -1,0 +1,40 @@
+.femaleStyle {
+  color: red;
+}
+
+.maleStyle {
+  color: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.femaleStyle,
+.maleStyle {
+  align-items: center;
+  background-color: chartreuse;
+  width: 140px;
+  margin: 4px;
+}
+
+img {
+  width: 100%;
+}
+
+.fieldset2 {
+  border: 1px solid;
+  width: 20%;
+  padding: 10px
+}
+.fieldset1 {
+  border: 1px solid;
+  width: 40%;
+  padding: 10px
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
