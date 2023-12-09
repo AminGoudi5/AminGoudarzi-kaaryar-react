@@ -1,0 +1,34 @@
+.text {
+    padding: 10px;
+   margin-top: 10px;
+   border-radius: 20px;
+   max-height: 150px;
+   max-width: 50%;
+   direction: rtl;
+}
+.text-p{
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.myMessage {
+    background-color: #db0142;
+    text-align: right;
+    align-self: flex-end;
+    border-bottom-left-radius: unset;
+    direction: rtl;
+}
+
+.hisMessage {
+    background-color: #12a3cc;
+    border-bottom-left-radius: unset;
+    align-self: flex-start;
+}
+
+
+@media (max-width) {
+    .text {
+        width: 80%;
+    }
+}
