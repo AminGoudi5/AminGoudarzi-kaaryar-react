@@ -1,0 +1,11 @@
+table{
+    width: 100%;
+}
+.header-tr{
+    font-weight: bold;
+    font-size: 20px;
+}
+.tr td{
+    font-size: 15px;
+    padding-left: 10px;
+}

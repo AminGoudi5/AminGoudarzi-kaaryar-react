@@ -1,0 +1,23 @@
+.d-flex {
+    display: flex;
+}
+
+.sellItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyItem :last-child {
+    margin-right: 20%;
+}
+.sellItem :first-child{
+    margin-left: 13%;
+}
+.sellItem :last-child{
+    margin-right: 4%;
+}
