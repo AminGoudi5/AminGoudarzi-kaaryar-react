@@ -1,0 +1,101 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    border: 2px solid #696CFF;
+    background-color: #696CFF;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Looks Start */
+.primary {
+    background-color: #696CFF;
+    border-color: #696CFF;
+    color: #696CFF;
+}
+
+.secondary {
+    background-color: #9592A3;
+    border-color: #9592A3;
+    color: #9592A3;
+}
+
+.success {
+    background-color: #71DD37;
+    border-color: #71DD37;
+    color: #71DD37;
+}
+
+.danger {
+    background-color: #FF3E1D;
+    border-color: #FF3E1D;
+    color: #FF3E1D;
+
+}
+
+.warning {
+    background-color: #FFAB00;
+    border-color: #FFAB00;
+    color: #FFAB00;
+}
+
+.info {
+    background-color: #03C3EC;
+    border-color: #03C3EC;
+    color: #03C3EC;
+}
+
+.dark {
+    background-color: #233446;
+    border-color: #233446;
+    color: #233446;
+}
+
+/* Looks end */
+
+/* Size Start */
+.small {
+    font-size: 0.875rem;
+    padding: 15px;
+}
+
+.medium {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.large {
+    font-size: 1.25rem;
+    padding: 25px;
+}
+
+/* Size End */
+
+/* Variants start */
+.filled {
+    color: white;
+}
+
+.outLined {
+    background-color: transparent;
+}
+
+/* Variant End */
